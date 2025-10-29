@@ -125,8 +125,7 @@
 
     // Event: Add Button Click
     addBtn.addEventListener("click", addTodo);
-
-    // Event: Enter Key Press on main input
+// enter
     todoInput.addEventListener("keypress", (e) => {
       if (e.key === "Enter") addTodo();
     });
