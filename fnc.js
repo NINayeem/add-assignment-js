@@ -55,7 +55,7 @@
       const input = document.createElement("input");
       input.type = "text";
       input.value = span.textContent;
-      input.className = "flex-grow p-2 rounded text-gray-900";
+      input.className = "flex-grow p-2 rounded text-gray-700";
 
       const saveBtn = document.createElement("button");
       saveBtn.textContent = "Save";
