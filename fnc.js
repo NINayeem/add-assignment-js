@@ -91,7 +91,7 @@
 
         const delBtn = document.createElement("button");
         delBtn.textContent = "Delete";
-        delBtn.className = "bg-red-500 hover:bg-red-600 px-3 py-1 rounded text-sm font-semibold";
+        delBtn.className = "bg-red-500 hover:bg-red-200  px-3 py-1 rounded text-sm font-semibold borrer boreder-green-400";
         delBtn.onclick = () => li.remove();
 
         li.querySelector("div").appendChild(editBtn);
