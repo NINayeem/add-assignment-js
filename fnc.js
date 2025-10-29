@@ -82,11 +82,11 @@
         span.textContent = newText;
         li.replaceChild(span, input);
 
-        // ফিরিয়ে দাও edit/delete
+        // edit and delet btn
         li.querySelector("div").innerHTML = "";
         const editBtn = document.createElement("button");
         editBtn.textContent = "Edit";
-        editBtn.className = "bg-yellow-500 hover:bg-yellow-600 px-3 py-1 rounded text-sm font-semibold";
+        editBtn.className = "bg-green-500 hover:bg-yellow-600 px-3 py-1 rounded text-sm font-semibold";
         editBtn.onclick = () => editTodo(li, span);
 
         const delBtn = document.createElement("button");
@@ -98,7 +98,7 @@
         li.querySelector("div").appendChild(delBtn);
       };
 
-      // Cancel action -> পূর্বের অবস্থায় ফিরিয়ে দেয়
+      // Cancel action cancel btn 
       cancelBtn.onclick = () => {
         li.replaceChild(span, input);
         li.querySelector("div").innerHTML = "";
