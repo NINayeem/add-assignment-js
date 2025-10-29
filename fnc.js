@@ -85,7 +85,7 @@
         // edit and delet btn
         li.querySelector("div").innerHTML = "";
         const editBtn = document.createElement("button");
-        editBtn.textContent = "Edit";
+        editBtn.textContent = "Edit hablu maam";
         editBtn.className = "bg-green-500 hover:bg-yellow-600 px-3 py-1 rounded text-sm font-semibold";
         editBtn.onclick = () => editTodo(li, span);
 
