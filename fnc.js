@@ -63,7 +63,7 @@
 
       const cancelBtn = document.createElement("button");
       cancelBtn.textContent = "Cancel";
-      cancelBtn.className = "bg-gray-600 hover:bg-gray-700 px-3 py-1 rounded text-sm font-semibold";
+      cancelBtn.className = "bg-gray-600 hover:bg-gray-700 px-3 py-1 rounded text-sm font-semibold text-white";
 
       // পুরনো span কে input দিয়ে replace
       li.replaceChild(input, span);
